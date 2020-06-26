@@ -1,7 +1,3 @@
-
-
-
-
 let coin = {
     state: 0,
     flip: function () {
@@ -40,10 +36,10 @@ let coin = {
 
         if (this.state === 0) {
             bodyElement.append(image)
-            image.src = '.images/heads.jpeg'
+            image.src = './Documents/GitHub/coinToss/images/heads.jpeg'
         } else if (this.state === 1) {
             bodyElement.append(image)
-            image.src = '.images/cotails.jpeg'
+            image.src = './Documents/GitHub/coinToss/images/cotails.jpeg'
         }
         return image;
     },
