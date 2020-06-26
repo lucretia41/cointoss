@@ -43,7 +43,7 @@ let coin = {
             image.src = '.images/heads.jpeg'
         } else if (this.state === 1) {
             bodyElement.append(image)
-            image.src = '.images/tails.jpeg'
+            image.src = '.images/cotails.jpeg'
         }
         return image;
     },
